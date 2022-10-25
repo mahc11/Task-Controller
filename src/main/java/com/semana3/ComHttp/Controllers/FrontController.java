@@ -29,7 +29,7 @@ public class FrontController {
             Users usuario = serviceUser.getorCreateUser(principal.getClaims());
             model.addAttribute("usuario", usuario);
         }
-        return "index.html";
+        return "index";
     }
 
     @GetMapping("/tasker")
