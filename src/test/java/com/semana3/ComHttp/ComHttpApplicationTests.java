@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 
 @SpringBootTest
 class ComHttpApplicationTests {
-
 	@Test
 	void contextLoads() {
 	}
