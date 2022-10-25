@@ -1,0 +1,1 @@
+web: java -Dserver.port=$PORT -jar target/Com-Http-0.0.1-SNAPSHOT.jar
